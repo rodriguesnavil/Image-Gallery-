@@ -7,6 +7,8 @@
        <li><a class='dropdown-link' href='#' data-activates='snj'>Sweatshirt & Jackets</a></li>
        <li><a class='dropdown-link' href='#' data-activates='it'>IT Products</a></li>
        <li><a class='dropdown-link' href='#' data-activates='uniform'>Uniforms</a></li>
+       <li><a class='dropdown-link' href='#' data-activates='activity'>Activity</a></li>
+
      </ul>
    </div>
  </nav>
@@ -15,6 +17,12 @@
     <li><a href="#" id="round">Round Neck</a></li>
     <li><a href="#" id="polo">Polo/Collar</a></li>
   </ul>
+
+  <ul id='activity' class='dropdown-content'>
+     <li><a href="#" id="dance">Dancing</a></li>
+     <li><a href="#" id="cook">Cooking</a></li>
+     <li><a href="#" id="sport">sports</a></li>
+   </ul>
 
   <ul id='cgifts' class='dropdown-content'>
     <li><a href="#" id="frame" onclick="press("Products/frames.php")">Frames</a></li>
