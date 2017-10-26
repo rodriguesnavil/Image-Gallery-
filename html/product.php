@@ -31,9 +31,20 @@
 
 <?php require 'footer.php' ?>
 <script type="text/javascript">
-//   $(document).on("click",".notavailable",function(){
-//  alert("We will upload that category soon ");
-// });
+$().ajax({
+	url:"",
+	method:"post",
+	success:function(data){
+		//do whatever you want to do
+		console.log(data);
+	},
+	error:function(err){
+		//Error function
+		console.log(err);
+	}
+	
+})
+	
 
 
 $("#content").load("producthome.php");
