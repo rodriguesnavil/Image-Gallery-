@@ -13,4 +13,9 @@
 <script src="js/jquery-lightbox.0.41.min.js"></script>
 <link rel="stylesheet" href="../css/lightbox.css">
 <link rel="stylesheet" href="../css/style.css">
+<!--
+
+<link rel="stylesheet" href="../css/lightbox.css">
+<link rel="stylesheet" href="../css/style.css">
+ -->
 <script src='https://www.google.com/recaptcha/api.js'></script>
